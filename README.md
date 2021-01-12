@@ -1,24 +1,39 @@
-## React Learning..
+# React Learning..
 
 ## Basics--
+<ul>
+    <li> Topics covered 
+        <ol type="1">
+            <li>Passing function as props</li>
+            <li>Destructuring props & state</li>
+            <li>Event Handling</li>
+            <li>Binding Event Handlers</li>
+            <li>Methods as props</li>
+            <li>Conditional Rendering</li>
+            <li>List Rendering</li>
+            <li>Lists and Keys</li>
+        </ol>
+    </li>
+
+</ul>
 
 ### Day 1 : Set up of react-basics project
 
-## Create React Project
-<b> npx create-react-app react-basics </b>
+##### Create React Project
+<b> `npx create-react-app react-basics` </b>
 
-## Add React Router Dom for Routing
-<b> npm install --save react-router-dom </b>
+##### Add React Router Dom for Routing
+<b> `npm install --save react-router-dom` </b>
 
-## Add Material UI Core, Icons-(for SVG) && Roboto fonts
-<b> npm install @material-ui/core </b>
-<b> npm install @material-ui/icons </b>
-<b> npm install fontsource-roboto </b>
+##### Add Material UI Core, Icons-(for SVG) && Roboto fonts
+<b> `npm install @material-ui/core` </b><br>
+<b> `npm install @material-ui/icons` </b><br>
+<b> `npm install fontsource-roboto` </b><br>
 
-## Add Classname package 
-<b> npm install classnames --save </b>
+##### Add Classname package 
+<b> `npm install classnames --save` </b>
 
-## clean up
+#### clean up
 
 
 
