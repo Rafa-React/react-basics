@@ -1,0 +1,9 @@
+{
+  "short_name": "React Tutorials",
+  "name": "React Basics Tutorials by Mrityunjay",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "author" : "Mrityunjay"
+}
