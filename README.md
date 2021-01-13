@@ -42,19 +42,19 @@
 
 
 ### Day 2 : Interaction between Parent & Child component
-<li> Parent -> Child - with the help of props.
-<li> Parent <- Child - With the help of function props defined as callbacks.<br>
+<li> Parent to Child - with the help of props.
+<li> Child to Parent - With the help of function props defined as callbacks.<br>
     see example of src\concepts\interactions\{Parent,Child}<br>
     In Child Component we have color picker upon hovering any color a <b>callback prop function</b> is defined as <br>
-    <b> `props.backgroundColor(color.hex)` </b><br>
+    <b> props.backgroundColor(color.hex) </b><br>
     Which is called in Parent component as - <br>
-    <b> `Child student={student[this.state.id]} backgroundColor={this.updateBackgroundColor}` </b> <br>
+    <b> Child student={student[this.state.id]} backgroundColor={this.updateBackgroundColor} </b> <br>
     and updateBackgroundColor is defined as -<br>
-    <b> `updateBackgroundColor = (color) => {
+    <b> updateBackgroundColor = (color) => {
         this.setState({
             color:color
         })
-    }` </b>
+    }</b><br>
 
 
 
