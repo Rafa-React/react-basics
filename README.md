@@ -48,7 +48,7 @@
     In Child Component we have color picker upon hovering any color a <b>callback prop function</b> is defined as <br>
     <b> `props.backgroundColor(color.hex)` </b><br>
     Which is called in Parent component as - <br>
-    <b> `<Child student={student[this.state.id]} backgroundColor={this.updateBackgroundColor}/>` </b> <br>
+    <b> `Child student={student[this.state.id]} backgroundColor={this.updateBackgroundColor}` </b> <br>
     and updateBackgroundColor is defined as -<br>
     <b> `updateBackgroundColor = (color) => {
         this.setState({
