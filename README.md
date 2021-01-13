@@ -31,11 +31,29 @@
 <b> `npm install fontsource-roboto` </b><br>
 
 ##### Add Classname package 
-<b> `npm install classnames --save` </b>
+<b> `npm install classnames --save` </b><br>
 
-#### clean up
+##### Add Navbar && loader-spinner
+<b> `npm install --save reactjs-navbar` </b><br>
+<b> `npm install react-loader-spinner --save` </b>
+
+##### Add Color picker 
+<b> `npm install react-color --save` </b>
 
 
+### Day 2 : Interaction between Parent & Child component
+<li> Parent -> Child - with the help of props.
+<li> Parent <- Child - With the help of function props defined as callbacks.
+    see example of src\concepts\interactions\{Parent,Child}
+    In Child Component we have color picker upon hovering any color a <b>callback prop function</b> is defined as `props.backgroundColor(color.hex)`.
+    Which is called in Parent component as - 
+    `<Child student={student[this.state.id]} backgroundColor={this.updateBackgroundColor}/>` 
+    and updateBackgroundColor is defined as -
+    `updateBackgroundColor = (color) => {
+        this.setState({
+            color:color
+        })
+    }`
 
 
 
