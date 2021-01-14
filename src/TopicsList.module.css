@@ -1,0 +1,10 @@
+.rightPane{
+    width: 25vw;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    height:auto;
+    background-color : rgba(171, 60, 199, 0.294);
+    padding: 10px;
+}

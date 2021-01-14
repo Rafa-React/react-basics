@@ -1,0 +1,17 @@
+.navigationPane{
+    width: 33%;
+    background-color: #65ddb3c0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container{
+    background-color: rgba(192, 211, 240, 0.63);
+    padding:20px 30px;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    width:68vw;
+    float: left;
+}
